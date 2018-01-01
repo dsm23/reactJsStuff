@@ -1,3 +1,28 @@
+# Contents
+
+* [Basics](#basics)
+* [JSX Elements](#jsx-elements)
+* [ReactDOM](#reactdom)
+* [Advanced JSX](#advanced-jsx)
+* [className](#classname)
+* [Self-closing HTML Tags](#self-closing-html-tags)
+* [Vanilla JS inside ReactJS](#vanilla-js-inside-reactjs)
+* [eventListeners are written in camelCase](#eventlisteners-are-written-in-camelCase)
+* [if Statements](#if-statements)
+* [&& operator](#-operator)
+* [.map](#map)
+* [keys](#keys)
+* [createElement](#createelement)
+* [Classes and Components](#classes-and-components)
+* [this and getters](#this-and-getters)
+* [this and eventListeners](#this-and-eventlisteners)
+* [Components render other Components](#components-render-other-components)
+* [this.props](#thisprops)
+* [parsing props from one file to another](#parsing-props-from-one-file-to-another)
+* [this.props.children](#thispropschildren)
+* [defaultProps](#defaultprops)
+* [this.state](#thisstate)
+
 # Basics
 
 ```javascript
@@ -131,7 +156,7 @@ ReactDOM.render(
 );
 ```
 
-## if statements
+## if Statements
 
 http://facebook.github.io/react/tips/if-else-in-JSX.html
 
