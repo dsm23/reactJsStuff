@@ -23,6 +23,25 @@
 * [defaultProps](#defaultprops)
 * [this.state](#thisstate)
 
+# Notes from work
+```javascript
+export class David extends React.Component {...}
+// leads to 
+import { David } from './...';
+
+export default class David extends React.Component {...}
+// leads to 
+import David from './...';
+
+import React, { Component } from 'react';
+// leads to 
+class David extends Component {...}
+
+//if the file you are importing from is called index.js then:
+import David from '.';
+
+```
+
 # Basics
 
 ```javascript
